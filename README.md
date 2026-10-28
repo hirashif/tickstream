@@ -1,6 +1,6 @@
-# crypto-market-pipeline
+# tickstream
 
-[![ci](https://github.com/hirashif/crypto-market-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/hirashif/crypto-market-pipeline/actions/workflows/ci.yml)
+[![ci](https://github.com/hirashif/tickstream/actions/workflows/ci.yml/badge.svg)](https://github.com/hirashif/tickstream/actions/workflows/ci.yml)
 
 A real-time cryptocurrency **market-data pipeline**: Go microservices that ingest live
 exchange ticks over WebSockets, stream them through **Kafka**, cache them in **Redis**, and

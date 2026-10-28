@@ -46,5 +46,5 @@ jobs:
           build-args: SERVICE=${{ matrix.service }}
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}-${{ matrix.service }}:latest
-            ghcr.io/${{ github.repository }}-${{ matrix.service }}:${{ github.sha }}
+            ghcr.io/hirashif/crypto-market-pipeline-${{ matrix.service }}:latest
+            ghcr.io/hirashif/crypto-market-pipeline-${{ matrix.service }}:${{ github.sha }}
